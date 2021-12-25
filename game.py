@@ -4,7 +4,6 @@ import sys
 import pygame
 from pygame.locals import * 
 
-
 FPS = 32
 SCREENWIDTH = 289
 SCREENHEIGHT = 511
@@ -218,3 +217,4 @@ if __name__ == "__main__":
     while True:
         welcomeScreen() 
         mainGame() 
+        
